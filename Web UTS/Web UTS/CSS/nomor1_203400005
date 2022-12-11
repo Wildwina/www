@@ -1,0 +1,21 @@
+<?php
+        //Enter your code here, enjoy!
+
+function cariNilai($nilai){
+    if ($nilai < 60) {
+        echo "Nilai Anda D!";
+      } 
+    if ($nilai < 70) {
+        echo "Nilai Anda C!";
+    } 
+    if ($nilai < 80) {
+        echo "Nilai Anda B!";
+    } 
+    if ($nilai >= 80) {
+        echo "Nilai Anda A!";
+    } 
+    
+}
+
+cariNilai(80);
+?>

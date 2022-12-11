@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	font-family: 'Poppins';
+	font-size: 18;
+	color: white;
+}
+
+body {
+	background-color: white;
+}
+
+img{
+	float: left;
+}
+
+i{
+	color:white;
+	font:'Poppins';
+	font-size: 18;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	top: 0;
+	position: sticky;
+	background: white;
+	width: 100%;
+	z-index: 999;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white; 
+}
+
+li {
+	float: left;
+}
+
+li a {
+	color: black;
+	text-align: center;
+	padding: 90px 10px;
+	text-decoration: none;
+	font-size: 18;
+	font-family: 'Poppins';
+	top: 50%;
+	left: 50%;
+}
+
+li a:hover {
+	text-decoration: underline;
+	text-decoration-color: #FFFE00;
+	font-weight: 900;
+}
+
+p.studi{
+	padding: 0px 65px;
+	color: black;
+	font-size: 18;
+	font-family: 'Poppins';
+}
+
+p.akademik{
+	padding: 0px 65px;
+	color: black;
+	font-size: 18;
+	font-family: 'Poppins';
+}
+
+p.fasilitas{
+	padding: 0px 65px;
+	color: black;
+	font-size: 18;
+	font-family: 'Poppins';
+}
+
+p.sejarah{
+	padding: 0px 65px;
+	color: black;
+	font-size: 18;
+	font-family: 'Poppins';
+}
+
+iframe{
+	float: inherit;
+}
+
+table {
+	background: url('../Images/bg.png');
+	width: 100%;
+	height: 50%;
+	padding: 20px;
+	
+}
+
+td {
+	font-family: 'Poppins';
+	font-size: 24;
+	color: white;
+	text-align: left;
+}
+
+td p{
+	font-family: 'Poppins';
+	font-size: 18;
+	color: white;
+	text-align: left;
+}
+
+h2.daftar{
+	padding: 0px 45px;
+	font-size: 24;
+}
+
+p.daftar{
+	font-family:'Poppins';
+	font-size:18;
+	padding: 0px 45px;
+}
+
+center{
+	font-size: 24;
+	color: grey;
+}
+
+hr.berita{
+	width: 25%;
+	font-size: 35;
+	border: 1px solid gray;
+	line-height: 1px;
+	overflow: visible;
+	text-align: center;
+}
+
+hr.berita:after{
+	content:"🎓";
+	display: inline;
+}
+
+.slogan{
+	background-image:url("../Images/vidyaloka.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30%;
+}
+
+.slogan h1{
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 40;
+	padding: 50px 25px;
+}
+
+.akademis{
+	background-image:url("../Images/vidyaloka.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30%;
+}
+
+.akademis h1{
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 40;
+	padding: 50px 25px;
+}
+
+.registrasi{
+	background-image:url("../Images/wisuda.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60%;
+}
+
+.registrasi h1{
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 40;
+	padding: 100px 25px;
+}
+
+.facility{
+	background-image:url("../Images/gedung2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30%;
+}
+
+.facility h1{
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 40;
+	padding: 50px 25px;
+}
+
+.about{
+	background-image:url("../Images/vidyaloka.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30%;
+}
+
+.about h1{
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 40;
+	padding: 50px 25px;
+}
+
+hr.layanan{
+	width: 25%;
+	font-size: 35;
+	border: 1px solid gray;
+	line-height: 1px;
+	overflow: visible;
+	text-align: center;
+}
+
+hr.layanan:after{
+	content:"🎓";
+	display: inline;
+}
+
+.kolom{
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	width: 25%;
+	margin-right:15px;
+	margin-left: 15px;
+	padding: 15px;
+	border: 2px solid #e7e7e7;
+}
+
+.isi{
+	vertical-align: top;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	width: 25%;
+	margin-right:15px;
+	margin-left: 15px;
+	padding: 15px;
+	background-color: white;
+}
+
+.sarana{
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	width: 25%;
+	margin-right:15px;
+	margin-left: 15px;
+	padding: 15px;
+	border: 2px solid #e7e7e7;
+}
+
+.kolom:hover{
+	border: 2px solid gray;
+}
+
+.baris:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.post{
+	color: black;
+}
+
+hr.post{
+	border: 3px solid #0f70c4;
+}
+
+p.post{
+	font-size: 15;
+}
+
+img.post1{
+	width: 100%;
+	height: 45%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+img.posting{
+	width: 100%;
+	height: 45%;
+}
+
+.layanan{
+	color: black;
+	text-align: center;
+}
+
+p.layanan{
+	font-size: 15;
+}
+
+.footer{
+	background-color: #333333;
+	width: 100%;
+}
+
+.footer h2{ 
+	color: white;
+}
+
+.navigasi{
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+	top: 50%;
+	left: 25%;
+	width: 25%;
+	margin-right:15px;
+	margin-left: 15px;
+	padding: 15px;
+}
+
+a.footer{
+	font-family: 'Poppins';
+	font-size: 18;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+}
+
+.circle a{
+	text-align: center;
+	float: left;
+	width: 36px;
+	height: 36px;
+	background: #FFFE00;
+	border-radius: 100%;
+	margin-right: 7px; /*space between*/
+
+} 
+.navigasi a i{
+	font-size: 20px;
+	line-height: 38px;
+	color: #0f70c4
+}
+
+p.footer{
+	font-size: 14;
+	color: #eae8e4.
+}
+
+button.telepon{
+	border: none;
+	float: right;
+	background-color: #0f70c4;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-family:'Poppins';
+}
+
+button.telepon:hover{
+	color: yellow;
+}
+
+button.daftar{
+	background-color: white;
+	font-family: 'Poppins';
+	text-align: center;
+	font-size: 24;
+	color: #0f70c4;
+	border-radius: 4px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px 32px;
+	border: none;
+	position: relative;
+	top: 0px;
+	left: 45px;
+}
+
+button.regis{
+	background-color: white;
+	font-family: 'Poppins';
+	text-align: center;
+	font-size: 24;
+	color: #0f70c4;
+	border-radius: 4px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px 32px;
+	border: none;
+	position: relative;
+	top: -110px;
+	left: 534px;
+}
+
+button.daftar:hover{
+	color: black;
+}
+
+button.regis:hover{
+	color: #f3f304;
+	background-color: #333333;
+}
+
+button.studi1{
+	background-color: white;
+	font-family: 'Poppins';
+	text-align: center;
+	font-size: 18;
+	color: #0f70c4;
+	border: 2px solid #e7e7e7;
+	border-radius: 4px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px 150px;
+	position: relative;
+	top: 0px;
+	left: 65px;
+}
+
+button.studi1:hover{
+	background-color:333333;
+	color: #f3f304;
+}
+
+button.studi2{
+	background-color: white;
+	font-family: 'Poppins';
+	text-align: center;
+	font-size: 18;
+	color: #0f70c4;
+	border: 2px solid #e7e7e7;
+	border-radius: 4px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px 100.5px;
+	position: relative;
+	top: 0px;
+	left: 65px;
+}
+
+button.studi2:hover{
+	background-color: 333333;
+	color: #f3f304;
+}
+
+@media screen and (max-width: 600px) {
+  button.telepon {
+	font-size: 1;
+  }
+  
+  nav{
+	display: none;
+  }
+  
+  .navigasi{
+	  width: 100%;
+  }
+  
+  button.studi1{
+	text-align: center;
+	width: 80%;
+  }
+  
+  button.studi2{
+	text-align: center;
+	width: 80%;
+  }
+  
+  .kolom{
+	width: 75%
+  }
+  
+  .isi{
+	width: 75%;
+  }
+  
+  .sarana{
+	width: 75%
+  }
+  
+  .footer{
+	width: 75%:
+  }
+  
+  button.regis{
+	 width: 75%;
+	top: -130px;
+	left: 55px;
+  }
